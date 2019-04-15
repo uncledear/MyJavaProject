@@ -1,0 +1,13 @@
+方法名	描述
+void sort(List list)	按自然升序排序
+void sort(List list, Comparator c)	自定义排序规则排序
+void shuffle(List list)	随机排序，用于打乱顺序
+void reverse(List list)	反转，将列表元素顺序反转
+void swap(List list, int i , int j)	交换处于索引 i 和 j 位置的元素
+int binarySearch(List list, Object key)	二分查找，列表必须有序，返回找到的元素索引位置
+int max(Collection coll)	查找最大值
+int min(Collection coll)	查找最小值
+void fill(List list, Object obj)	使用 obj 填充 list 所有元素
+boolean replaceAll(List list, Object oldVal, Object newVal)	使用用 newVal 替换所有的 oldVal。
+<K,V> Map<K,V> synchronizedMap(Map<K,V> m)	将 m 包装为线程安全的 Map
+List synchronizedList(List list)	将 list 包装为线程安全的 List
