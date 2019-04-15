@@ -1,0 +1,13 @@
+Git使用教程（本地新建项目）
+git init
+//新建本地仓库
+git add .
+将文件加入本地仓库
+git commit -m "say what are you doing"
+添加日志提示
+git remote add origin https://github.com/uncledear/MyJavaProject.git
+关联远程仓库
+git pull --rebase origin master
+进行代码合并
+git push -u origin master
+提交到远程仓库
