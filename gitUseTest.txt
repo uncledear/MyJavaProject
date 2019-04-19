@@ -10,7 +10,8 @@ git commit -m "say what are you doing"
 git config user.email "991103897@qq.com"
 git config user.name "uncledear"
 git remote add origin https://github.com/uncledear/MyJavaProject.git
-关联远程仓库
+git pull --rebase origin master
+
 
 
 
